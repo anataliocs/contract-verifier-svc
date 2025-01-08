@@ -69,7 +69,8 @@
     "coverageThreshold": {
       "global": {
         "lines": 25
-      },
+      }
+    },
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
