@@ -65,6 +65,12 @@
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "lines": 25
+      }
+    },
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
