@@ -33,7 +33,7 @@ jobs:
 
       - name: Code Coverage
         run: pnpm run test:cov
-        
+
       - name: Upload coverage
         uses: actions/upload-artifact@v4
         with:
