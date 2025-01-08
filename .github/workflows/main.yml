@@ -27,3 +27,15 @@ jobs:
 
       - name: Unit Tests
         run: pnpm run test
+
+      - name: Run ESLint
+        run: pnpm run lint
+
+      - name: Code Coverage
+        run: pnpm run test:cov
+        
+      - name: Upload coverage
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage
